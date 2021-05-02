@@ -8,5 +8,8 @@ scipy
 streamlit
 scikit-learn
 virtualenv==16.7.9
-
+pickleshare==0.7.5
+fancyimpute=0.5.5
+cvxpy
+knnimpute
 

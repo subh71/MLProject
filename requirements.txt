@@ -5,3 +5,5 @@ uvicorn
 uvloop
 httptools
 gunicorn==19.9
+streamlit
+python==3.7

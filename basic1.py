@@ -65,6 +65,4 @@ def predict(data: request_body):
 
 
 if __name__ == "__main__":
-    PORT=process.env.port||3000
-    app.set("port",PORT)
     uvicorn.run(app)

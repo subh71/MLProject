@@ -64,6 +64,8 @@ def predict(data: request_body):
     return {'class': iris.target_names[class_idx],'score':score}
 
 
-#input_page()
+const PORT=process.env.port||8080
+app.set("port",PORT)
+
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)

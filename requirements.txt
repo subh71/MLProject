@@ -5,3 +5,5 @@ fastapi==0.63.0
 scikit_learn==0.24.2
 streamlit==0.81.0
 gunicorn==19.9.0
+uvloop
+httptools
